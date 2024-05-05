@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d97d7a8-8ba8-4c71-b7f4-7e218b67a819" name="Changes" comment="created simple test for testing Exceptions">
+    <list default="true" id="6d97d7a8-8ba8-4c71-b7f4-7e218b67a819" name="Changes" comment="implemented test using left shift operator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/groovy/ExampleSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/ExampleSpecification.groovy" afterDir="false" />
     </list>
@@ -60,31 +60,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ExampleSpecification.should expect an Exception to be thrown for a number of invalid inputs">
-    <configuration name="ExampleSpecification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ExampleSpecification&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExampleSpecification.should use data tables for calculating max">
     <configuration name="ExampleSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spock-Testing.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,11 +70,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleSpecification.should demonstrate given-when-then" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleSpecification.should be able to create a polygon with #sides sides" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spock-Testing.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExampleSpecification" />
-      <option name="METHOD_NAME" value="should demonstrate given-when-then" />
+      <option name="METHOD_NAME" value="should be able to create a polygon with #sides sides" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,13 +100,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleSpecification.should use data tables for calculating max" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spock-Testing.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExampleSpecification" />
+      <option name="METHOD_NAME" value="should use data tables for calculating max" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExampleSpecification.should use data tables for calculating max" />
+        <item itemvalue="JUnit.ExampleSpecification.should be able to create a polygon with #sides sides" />
         <item itemvalue="JUnit.ExampleSpecification.should expect an Exception to be thrown for a number of invalid inputs" />
         <item itemvalue="JUnit.ExampleSpecification.should expect Exceptions" />
         <item itemvalue="JUnit.ExampleSpecification" />
-        <item itemvalue="JUnit.ExampleSpecification.should demonstrate given-when-then" />
-        <item itemvalue="Gradle.ExampleSpecification" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714939985335</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented test using left shift operator">
+      <created>1714941919140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714941919140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +183,8 @@
     <MESSAGE value="created simple assertion" />
     <MESSAGE value="created java classes to use for testing and simple given-when-then test" />
     <MESSAGE value="created simple test for testing Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="created simple test for testing Exceptions" />
+    <MESSAGE value="implemented test using left shift operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented test using left shift operator" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
