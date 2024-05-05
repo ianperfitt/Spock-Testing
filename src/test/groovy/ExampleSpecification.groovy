@@ -1,6 +1,8 @@
 import org.example.Polygon
+import org.example.Renderer
 import org.example.TooFewSidesException
 import spock.lang.Specification
+import spock.lang.Subject
 
 class ExampleSpecification extends Specification {
 
@@ -58,5 +60,18 @@ class ExampleSpecification extends Specification {
         7 | 4 || 7
         0 | 0 || 0
 
+    }
+
+    def "should be able to mock a concrete class"() {
+        given:
+        Renderer renderer = Mock()
+        @Subject
+        def polygon = new Polygon(4, renderer)
+
+        when:
+        polygon.draw()
+
+        then:
+        4 * renderer.drawLine()
     }
 }

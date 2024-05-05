@@ -4,6 +4,7 @@ public class Renderer {
     private final Palette palette;
 
     public Renderer(Palette palette) {
+
         this.palette = palette;
     }
 
@@ -11,6 +12,7 @@ public class Renderer {
     }
 
     public Colour getForegroundColour() {
+
         return palette.getPrimaryColour();
     }
 }

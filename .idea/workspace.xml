@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d97d7a8-8ba8-4c71-b7f4-7e218b67a819" name="Changes" comment="implemented test using left shift operator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6d97d7a8-8ba8-4c71-b7f4-7e218b67a819" name="Changes" comment="implemented simple test using data tables">
       <change beforePath="$PROJECT_DIR$/src/test/groovy/ExampleSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/ExampleSpecification.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,21 +59,22 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ExampleSpecification.should use data tables for calculating max">
-    <configuration name="ExampleSpecification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spock-Testing.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ExampleSpecification" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExampleSpecification.should be able to mock a concrete class">
     <configuration name="ExampleSpecification.should be able to create a polygon with #sides sides" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spock-Testing.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExampleSpecification" />
       <option name="METHOD_NAME" value="should be able to create a polygon with #sides sides" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleSpecification.should be able to mock a concrete class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spock-Testing.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExampleSpecification" />
+      <option name="METHOD_NAME" value="should be able to mock a concrete class" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExampleSpecification.should be able to mock a concrete class" />
         <item itemvalue="JUnit.ExampleSpecification.should use data tables for calculating max" />
         <item itemvalue="JUnit.ExampleSpecification.should be able to create a polygon with #sides sides" />
         <item itemvalue="JUnit.ExampleSpecification.should expect an Exception to be thrown for a number of invalid inputs" />
         <item itemvalue="JUnit.ExampleSpecification.should expect Exceptions" />
-        <item itemvalue="JUnit.ExampleSpecification" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714941919140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implemented simple test using data tables">
+      <created>1714942481250</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714942481250</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +191,8 @@
     <MESSAGE value="created java classes to use for testing and simple given-when-then test" />
     <MESSAGE value="created simple test for testing Exceptions" />
     <MESSAGE value="implemented test using left shift operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented test using left shift operator" />
+    <MESSAGE value="implemented simple test using data tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented simple test using data tables" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
