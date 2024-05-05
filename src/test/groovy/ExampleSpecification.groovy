@@ -1,4 +1,5 @@
 import org.example.Polygon
+import org.example.TooFewSidesException
 import spock.lang.Specification
 
 class ExampleSpecification extends Specification {
@@ -9,13 +10,20 @@ class ExampleSpecification extends Specification {
     }
 
     def "should demonstrate given-when-then"() {
-        given:
-        def polygon = new Polygon(4)
 
         when:
-        int sides = polygon.getNumberOfSides()
+        int sides = new Polygon(4).getNumberOfSides()
 
         then:
         sides == 4
+    }
+
+    def "should expect Exceptions"() {
+        when:
+        new Polygon(0)
+
+        then:
+        def exception = thrown(TooFewSidesException)
+        exception.numberOfSides == 0
     }
 }
