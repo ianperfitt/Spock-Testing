@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d97d7a8-8ba8-4c71-b7f4-7e218b67a819" name="Changes" comment="implemented simple test using data tables">
+    <list default="true" id="6d97d7a8-8ba8-4c71-b7f4-7e218b67a819" name="Changes" comment="implemented stubbing using simple test and updated spacing on Palette.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Palette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Palette.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/groovy/ExampleSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/ExampleSpecification.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +55,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ExampleSpecification.should be able to mock a concrete class">
+  <component name="RunManager" selected="JUnit.ExampleSpecification.should be able to create a stub">
     <configuration name="ExampleSpecification.should be able to create a polygon with #sides sides" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spock-Testing.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,21 +73,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleSpecification.should be able to mock a concrete class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleSpecification.should be able to create a stub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spock-Testing.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExampleSpecification" />
-      <option name="METHOD_NAME" value="should be able to mock a concrete class" />
+      <option name="METHOD_NAME" value="should be able to create a stub" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleSpecification.should expect Exceptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleSpecification.should be able to mock a concrete class" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spock-Testing.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ExampleSpecification" />
-      <option name="METHOD_NAME" value="should expect Exceptions" />
+      <option name="METHOD_NAME" value="should be able to mock a concrete class" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExampleSpecification.should be able to create a stub" />
         <item itemvalue="JUnit.ExampleSpecification.should be able to mock a concrete class" />
         <item itemvalue="JUnit.ExampleSpecification.should use data tables for calculating max" />
         <item itemvalue="JUnit.ExampleSpecification.should be able to create a polygon with #sides sides" />
         <item itemvalue="JUnit.ExampleSpecification.should expect an Exception to be thrown for a number of invalid inputs" />
-        <item itemvalue="JUnit.ExampleSpecification.should expect Exceptions" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714942481250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implemented mocking and leveraged @Subject annotation. Also adjusted the spacing in Renderer class.">
+      <created>1714942873938</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714942873938</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +202,9 @@
     <MESSAGE value="created simple test for testing Exceptions" />
     <MESSAGE value="implemented test using left shift operator" />
     <MESSAGE value="implemented simple test using data tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented simple test using data tables" />
+    <MESSAGE value="implemented mocking and leveraged @Subject annotation. Also adjusted the spacing in Renderer class." />
+    <MESSAGE value="implemented stubbing using simple test and updated spacing on Palette.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented stubbing using simple test and updated spacing on Palette.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

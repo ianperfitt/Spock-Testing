@@ -1,3 +1,5 @@
+import org.example.Colour
+import org.example.Palette
 import org.example.Polygon
 import org.example.Renderer
 import org.example.TooFewSidesException
@@ -38,7 +40,7 @@ class ExampleSpecification extends Specification {
         exception.numberOfSides == sides
 
         where:
-        sides << [-1, 0, 3, 2]
+        sides << ([-1, 0, 3, 2] as Number)
     }
 
     def "should be able to create a polygon with #sides sides"() {
@@ -73,5 +75,19 @@ class ExampleSpecification extends Specification {
 
         then:
         4 * renderer.drawLine()
+    }
+
+    def "should be able to create a stub"() {
+        given:
+        Palette palette = Stub()
+        palette.getPrimaryColour() >> Colour.Red
+        @Subject
+        def renderer = new Renderer(palette)
+
+        expect:
+        renderer.getForegroundColour() == Colour.Red
+
+
+
     }
 }
