@@ -90,7 +90,7 @@ class ExampleSpecification extends Specification {
 
     }
 
-    def "should use a helper method"() {
+    def "should demonstrate 'verifyAll'"() {
         given:
         Renderer renderer = Mock()
         def shapeFactory = new ShapeFactory(renderer)
@@ -99,12 +99,18 @@ class ExampleSpecification extends Specification {
         def polygon = shapeFactory.createDefaultPolygon()
 
         then:
-        with(polygon) {
-            numberOfSides == 5
-            renderer == null
+        verifyAll(polygon) {
+            numberOfSides == 4
+            renderer == renderer
             //checkDefaultShape(polygon, renderer)
 
         }
+//        with(polygon) {
+//            numberOfSides == 5
+//            renderer == null
+//            //checkDefaultShape(polygon, renderer)
+//
+//        }
 
 //    private void checkDefaultShape(Polygon polygon, Renderer renderer) {
 //        assert polygon.numberOfSides == 4
