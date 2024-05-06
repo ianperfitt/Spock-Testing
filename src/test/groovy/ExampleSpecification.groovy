@@ -9,6 +9,19 @@ import spock.lang.Subject
 
 class ExampleSpecification extends Specification {
 
+    @Subject
+    private Polygon polygon = new Polygon(5)
+
+    void setupSpec() {
+        // setup code that needs to be run once at the start
+
+    }
+
+    void setup() {
+        // setup code that needs to be run before every test method
+
+    }
+
     def "should be a simple assertion"() {
         expect:
         1 == 1
@@ -116,5 +129,13 @@ class ExampleSpecification extends Specification {
 //        assert polygon.numberOfSides == 4
 //        assert polygon.renderer == renderer
 //    }
+    }
+
+    void cleanup() {
+        // code that tears down things at the end of a test method
+    }
+
+    void cleanupSpec() {
+        // code that tears down everything at the end when all tests have run
     }
 }

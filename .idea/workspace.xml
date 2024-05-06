@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d97d7a8-8ba8-4c71-b7f4-7e218b67a819" name="Changes" comment="implemented stubbing using simple test and updated spacing on Palette.java">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ShapeFactory.java" afterDir="false" />
+    <list default="true" id="6d97d7a8-8ba8-4c71-b7f4-7e218b67a819" name="Changes" comment="created simple test method that leverages verifyAll()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/groovy/ExampleSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/ExampleSpecification.groovy" afterDir="false" />
     </list>
@@ -52,18 +50,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ShapeFactory" />
@@ -197,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714944328055</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created simple test method that leverages with() &amp; added .idea/workspace.xml to .gitignore">
+      <created>1714954068460</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714954068460</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created simple test method that leverages verifyAll()">
+      <created>1714954198019</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714954198019</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +232,9 @@
     <MESSAGE value="implemented simple test using data tables" />
     <MESSAGE value="implemented mocking and leveraged @Subject annotation. Also adjusted the spacing in Renderer class." />
     <MESSAGE value="implemented stubbing using simple test and updated spacing on Palette.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented stubbing using simple test and updated spacing on Palette.java" />
+    <MESSAGE value="created simple test method that leverages with() &amp; added .idea/workspace.xml to .gitignore" />
+    <MESSAGE value="created simple test method that leverages verifyAll()" />
+    <option name="LAST_COMMIT_MESSAGE" value="created simple test method that leverages verifyAll()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
